@@ -1,0 +1,33 @@
+<doctype html>
+<body>{
+font-family:sans-serif;
+margin:0;
+padding:0;}
+
+
+
+img{width:15%;
+margin-left:1.9rem;
+margin-top:-4;
+}
+
+
+#courses{display:block;
+text-align:center}
+#courses img {
+width:500px;
+border-radius:10px;
+border:2px solid #000;}
+.apply{margin-top:4%;
+background-color:blue;
+padding:0.7rem 1rem;
+color:#fff;
+border:none;
+border-radius:10px;}
+
+
+
+
+</body>
+</html> 
+

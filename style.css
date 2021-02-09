@@ -1,0 +1,185 @@
+<doctype html>
+/* <body>{
+font-family:sans-serif;
+margin:0;
+padding:0;}  */
+
+.login{
+    text-align: right;
+    text-decoration: solid;
+
+}
+.btn-5{
+    background-color:rgb(183, 185, 40);
+    padding:0.7rem 1rem;
+    color:rgb(22, 19, 29);
+    border:none;
+    float: right;
+    border-radius:10px;
+}
+.wrapper{
+background:url(n.jpg)
+no-repeat center center;
+min-height: 20rem;
+}
+nav{
+width:100%;
+height:20%;
+background-color:#0005;
+line-height:-60px;
+}
+nav ul{
+float:right;
+margin:0;
+margin-right:1.9rem;
+}
+nav ul li{
+list-style-type:none;
+display:inline-block;
+line-height:40px;
+margin:40px;
+background-color:rgb(247, 168, 65);
+border-radius:10px;
+}
+nav ul li a{
+text-decoration:none;
+color:rgb(14, 11, 11);
+padding: 30px;
+}
+img{width:15%;
+margin-left:1.9rem;
+margin-top:-4;
+}
+nav ul li:hover{
+background-color:rgb(166, 238, 243);}
+font-weight:bold;
+font-size:1.2rem;
+}
+.section{
+width:80%;
+margin:auto;
+overflow:hidden;
+margin-top:4%;
+}
+.section h1{
+color:rgb(23, 7, 250);
+line-height:50px;
+padding:1rem;
+}
+.section p{
+color:rgb(211, 12, 55);
+padding:1rem;
+}
+
+.btn-1{
+background-color:orangered;
+padding:0.7rem 1rem;
+color:#fff;
+border:none;
+border-radius:10px;}
+.features{
+margin-top:4%;
+margin-bottom:4%;}
+.features button{
+background-color: burlywood;
+padding:0.7rem 2rem;
+margin-right:2rem;
+font-size:1.2rem;
+border-radius: 10px;
+}
+showcase h1{
+    /* margin-top:5%;
+    margin-bottom:5%; */
+    margin: 0px;
+ text-align:center; 
+background-color:orangered;
+ display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+    font-weight: bold; 
+}
+#courses{display:flex;
+text-align:center;
+background-color: pink}
+#courses img {
+width:250px;
+border-radius:10px;
+border:2px solid #000;
+background-color:rgb(102, 255, 0);
+}
+.apply{margin-top:4%;
+background-color:rgb(250, 44, 44);
+padding:0.7rem 1rem;
+color:#fff;
+border:none;
+border-radius:10px;}
+footer{background-color:#333;
+color:#fff;
+text-align:center;
+padding:1.2rem;
+margin-top:4%;}
+main{
+   
+    height :5vh;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.leftside{
+    font-size: 100%;
+}
+.rightside{
+    border-radius: 33% 67% 81% 19% / 90% 64% 36% 10%  ;
+}
+.rightside img{
+    width: 250;
+    margin-left: 1.9rem;
+    margin-top: -4;
+    align-items: left;
+}
+.bgimg{
+    background-image:url(edu5.jpg);
+}
+.leftside h1{
+    color: rgb(235, 21, 181);
+}
+.leftside h3{
+    color: rgb(114, 9, 15);
+}
+.cs img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform;
+    transition-delay: .2s;
+}
+.bussiness img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform;
+    transition-delay: .2s;
+}
+.journalism img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform;
+    transition-delay: .2s;
+}
+.arts img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform ;
+    transition-delay: .2s;
+}
+.medical img:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform;
+    transition-delay: .2s;
+}
+.apply:hover{
+    transform: scale(1.2,1.2);
+    transition: .3s transform;
+    color:darkblue;
+    background-color: aqua;
+}
+
+
+
+
+
