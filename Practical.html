@@ -1,0 +1,77 @@
+<doctype!>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hello</title>
+<style>
+	
+		td{
+			font-size: 18px;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			padding: 8px 8px;
+			margin: 8px 0;
+			
+		}
+			button{
+				border-radius: 8px;
+				margin-top: 5%;
+				border-color: aquamarine;
+				background-color: beige;
+				
+			}
+			tr{
+				
+			}
+			
+</style>
+</head>
+<body bgcolor="pink">
+<h1><font color="blue"><center><u>Registration Form</u></center></font></h1>
+<center>
+<table cellspacing=4  cellpadding=4>
+<form action="C:\xampp\htdocs\Web\insert.php" method="POST">
+	<tr>
+		<td font-size="18px"> Full Name</td>
+		<td><input type="text"  required placeholder="Name" name="full_name"></td>
+		</tr>
+		<tr>
+		<td> Username </td>
+		<td><input type="text" placeholder="Username" name="user_name"></td>
+		</tr>
+		
+		<tr>
+		<td> Create Password </td>
+		<td><input type="password" placeholder="Create password" name="password"></td>
+		</tr>
+		<tr>
+		<td> Confirm Password </td>
+		<td><input type="password" placeholder="Confirm password"name="confirm_password"></td>
+		</tr>
+		<td>Gender </td>
+		<td><input type="radio" name="gender">Male</td>
+		<td><input type="radio" name="gender">Female</td>
+		</tr>
+		<tr>
+		<td>D.O.B </td>
+		<td><input type="date" name="dob" required placeholder="DOBs"></td>
+		</tr>
+		<tr>
+			<td> E-mail ID </td>
+			<td><input type="email" placeholder="Enter E-mail" name="email"></td>
+			</tr>
+			<tr>
+				<td> Mobile No.</td>
+				<td><input type="number" placeholder="Mobile no." name="mobile"></td>
+				</tr>
+			
+				
+</form>
+</table>
+ <button type="submit" value="Login" name="Submit">Submit </button>
+</center>
+<br><br>
+<div class="btn-1">
+<!-- <input type="Submit" value="SUBMIT" >/* -->
+</div>
+</body>
+</html>
